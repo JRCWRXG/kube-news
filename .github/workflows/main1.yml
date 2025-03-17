@@ -26,6 +26,6 @@ jobs:
            push: true
            tags: |
            
-              jrcwrxg/kube-news:v1
+              jrcwrxg/kube-news:${{github.run_number}}
               jrcwrxg/kube-news:latest
     
